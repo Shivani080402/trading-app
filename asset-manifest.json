@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/Shivani080402/trading-app/static/css/main.d67676bf.css",
-    "main.js": "/Shivani080402/trading-app/static/js/main.873d7994.js",
-    "static/js/900.ed3e3ac5.chunk.js": "/Shivani080402/trading-app/static/js/900.ed3e3ac5.chunk.js",
-    "index.html": "/Shivani080402/trading-app/index.html",
-    "main.d67676bf.css.map": "/Shivani080402/trading-app/static/css/main.d67676bf.css.map",
-    "main.873d7994.js.map": "/Shivani080402/trading-app/static/js/main.873d7994.js.map"
+    "main.css": "/trading-app/static/css/main.d67676bf.css",
+    "main.js": "/trading-app/static/js/main.854a9751.js",
+    "static/js/900.ed3e3ac5.chunk.js": "/trading-app/static/js/900.ed3e3ac5.chunk.js",
+    "index.html": "/trading-app/index.html",
+    "main.d67676bf.css.map": "/trading-app/static/css/main.d67676bf.css.map",
+    "main.854a9751.js.map": "/trading-app/static/js/main.854a9751.js.map"
   },
   "entrypoints": [
     "static/css/main.d67676bf.css",
-    "static/js/main.873d7994.js"
+    "static/js/main.854a9751.js"
   ]
 }
