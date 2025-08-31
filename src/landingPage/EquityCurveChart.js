@@ -32,17 +32,13 @@ export const fetchExcelData = async () => {
     let jsonData = XLSX.utils.sheet_to_json(sheet, { header: 1 });
     jsonData = jsonData.slice(6).filter((row) => row.length > 0);
 
-    // Initial processing to get green line values
     let formattedData = jsonData.map((row) => ({
       time: row[0],
       green: row[1] || 0,
-      blue: 0, // Placeholder for calculated value
+      blue: 0, 
     }));
 
-    // Reverse the data array to show time from left to right
     formattedData = formattedData.reverse();
-
-    // Process the blue line data based on the green line's percentage change
     let baseValue = 100;
     const initialGreenValue = formattedData[0]?.green || 0;
 
@@ -58,7 +54,7 @@ export const fetchExcelData = async () => {
     
     return formattedData;
   } catch (error) {
-    console.error("❌ Error reading Excel file:", error);
+    console.error(" Error reading Excel file:", error);
     return [];
   }
 };
