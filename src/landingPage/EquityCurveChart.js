@@ -20,7 +20,7 @@ import * as XLSX from "xlsx";
  */
 export const fetchExcelData = async () => {
   try {
-    const response = await fetch("/nav-data.xlsx");
+    const response = await fetch("nav-data.xlsx");
     if (!response.ok)
       throw new Error(`Failed to fetch file: ${response.statusText}`);
 
@@ -85,7 +85,7 @@ export const calculateDrawdown = (data) => {
 /**
  * Main component for rendering the equity curve and drawdown charts.
  */
-export default function EquityCurve() {
+export default function EquityCurveChart() {
   const [chartData, setChartData] = useState([]);
   const [drawdownData, setDrawdownData] = useState([]);
 
