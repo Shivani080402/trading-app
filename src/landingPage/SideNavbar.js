@@ -48,7 +48,7 @@ function SideNavbar() {
                   <li className="nav-item  p-1">
                     <Link
                       className="text-decoration-none text-black"
-                      to="/portfolios"
+                      to="/trading-app/portfolios"
                     >
                       <div style={{ display: "flex" }}>
                         <FontAwesomeIcon
