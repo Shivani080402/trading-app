@@ -18,8 +18,8 @@ function Hero() {
             style={{ backgroundColor: "#f6f6feff" }}
           >
             <Routes>
-              <Route path="/" element={<HomePage />} />
-              <Route path="/portfolios" element={<TradingPage />} />
+              <Route path="/trading-app" element={<HomePage />} />
+              <Route path="/trading-app/portfolios" element={<TradingPage />} />
             </Routes>
           </div>
         </div>

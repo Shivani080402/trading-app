@@ -34,7 +34,7 @@ function SideNavbar() {
                     <Link
                       className="text-decoration-none text-black"
                       aria-current="page"
-                      to="/"
+                      to="/trading-app"
                     >
                       <div style={{ display: "flex" }}>
                         <FontAwesomeIcon
